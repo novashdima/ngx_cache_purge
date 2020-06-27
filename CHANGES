@@ -1,3 +1,6 @@
+2020-06-27    VERSION 2.4.3
+    * fix: empty key check - it coredumps when cache key is empty, Tuğrul Topuz
+
 2017-09-28    VERSION 2.4.2
     * Fix segfault in call to ngx_read_file of partial key purge
     * Fix segfault in cplcf->conf->purge_all with separate location syntax
