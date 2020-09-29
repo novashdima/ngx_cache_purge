@@ -269,3 +269,5 @@ License
 See also
 ========
 - [ngx_slowfs_cache](http://github.com/FRiCKLE/ngx_slowfs_cache).
+- https://www.innoq.com/en/blog/faking-surrogate-cache-keys-for-nginx-plus/ (https://gist.github.com/titpetric/2f142e89eaa0f36ba4e4383b16d61474)
+- https://gist.github.com/nosun/0cfb58d3164f829e2f027fd37b338ede
