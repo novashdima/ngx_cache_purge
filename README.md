@@ -269,7 +269,10 @@ License
 See also
 ========
 - [ngx_slowfs_cache](http://github.com/FRiCKLE/ngx_slowfs_cache).
-- [Faking Surrogate Cache-Keys for Nginx Plus](https://www.innoq.com/en/blog/faking-surrogate-cache-keys-for-nginx-plus/) ([gist](https://gist.github.com/titpetric/2f142e89eaa0f36ba4e4383b16d61474))
-- [Delete NGINX cached md5 items with a PURGE with wildcard support](https://gist.github.com/nosun/0cfb58d3164f829e2f027fd37b338ede)
 - http://nginx.org/en/docs/http/ngx_http_fastcgi_module.html#purger
 - http://nginx.org/en/docs/http/ngx_http_fastcgi_module.html#fastcgi_cache_purge
+- https://github.com/wandenberg/nginx-selective-cache-purge-module
+- https://github.com/wandenberg/nginx-sorted-querystring-module
+- https://github.com/ledgetech/ledge
+- [Faking Surrogate Cache-Keys for Nginx Plus](https://www.innoq.com/en/blog/faking-surrogate-cache-keys-for-nginx-plus/) ([gist](https://gist.github.com/titpetric/2f142e89eaa0f36ba4e4383b16d61474))
+- [Delete NGINX cached md5 items with a PURGE with wildcard support](https://gist.github.com/nosun/0cfb58d3164f829e2f027fd37b338ede)
