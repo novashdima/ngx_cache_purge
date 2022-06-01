@@ -579,11 +579,11 @@ typedef struct {
     ngx_str_t                      ssl_trusted_certificate;
     ngx_str_t                      ssl_crl;
 #    endif /* nginx_version >= 1007000 */
-#    if (nginx_version >= 1007008)
+#    if ((nginx_version >= 1007008) && (nginx_version < 1021000))
     ngx_str_t                      ssl_certificate;
     ngx_str_t                      ssl_certificate_key;
     ngx_array_t                   *ssl_passwords;
-#    endif /* nginx_version >= 1007008 */
+#    endif /* nginx_version >= 1007008 && nginx_version < 1021000 */
 #    if (nginx_version >= 1019004)
     ngx_array_t                   *ssl_conf_commands;
 #    endif /*nginx_version >= 1019004 */
@@ -1055,11 +1055,11 @@ typedef struct {
     ngx_str_t                  ssl_trusted_certificate;
     ngx_str_t                  ssl_crl;
 #    endif /* nginx_version >= 1007000 */
-#    if (nginx_version >= 1007008)
+#    if ((nginx_version >= 1007008) && (nginx_version < 1021000))
     ngx_str_t                  ssl_certificate;
     ngx_str_t                  ssl_certificate_key;
     ngx_array_t               *ssl_passwords;
-#    endif /* nginx_version >= 1007008 */
+#    endif /* nginx_version >= 1007008 && nginx_version < 1021000 */
 #    if (nginx_version >= 1019004)
     ngx_array_t               *ssl_conf_commands;
 #    endif /*nginx_version >= 1019004 */
