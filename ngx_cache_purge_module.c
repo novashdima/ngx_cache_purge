@@ -584,6 +584,9 @@ typedef struct {
     ngx_str_t                      ssl_certificate_key;
     ngx_array_t                   *ssl_passwords;
 #    endif /* nginx_version >= 1007008 */
+#    if (nginx_version >= 1019004)
+    ngx_array_t                   *ssl_conf_commands;
+#    endif /*nginx_version >= 1019004 */
 #  endif
 } ngx_http_proxy_loc_conf_t;
 
@@ -1057,6 +1060,9 @@ typedef struct {
     ngx_str_t                  ssl_certificate_key;
     ngx_array_t               *ssl_passwords;
 #    endif /* nginx_version >= 1007008 */
+#    if (nginx_version >= 1019004)
+    ngx_array_t               *ssl_conf_commands;
+#    endif /*nginx_version >= 1019004 */
 #  endif
 } ngx_http_uwsgi_loc_conf_t;
 
